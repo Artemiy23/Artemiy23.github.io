@@ -8,6 +8,7 @@ let delta = 0;
 burgerBtn.onclick = function () {
     burgerBtn.classList.toggle('active');
     document.querySelector('body').classList.toggle('scroll-block');
+    document.querySelector('html').classList.toggle('scroll-block');
     if (burgerMenu.classList.toggle('open')) {
         burgerMenu.classList.remove('close');
         burgerMenu.removeAttribute('hidden');
