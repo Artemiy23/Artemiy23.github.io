@@ -16,8 +16,10 @@
 
 /* General styles */
 
-body {
+html, body {
     background-color: #F2F2F2;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .scroll-up .header {
